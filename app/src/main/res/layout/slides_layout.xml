@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="8dp"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:layout_margin="10dp">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/slider_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/storage"
+                android:scaleType="fitXY"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:id="@+id/slider_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#FFF"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:background="#723F47"
+            android:fontFamily="@font/title"
+            />
+
+
+        <TextView
+            android:id="@+id/slider_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/admin"
+            android:textColor="#000"
+            android:background="@drawable/textstyle"
+            android:textSize="17sp"
+            android:padding="6dp"
+            android:fontFamily="@font/details"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>
+

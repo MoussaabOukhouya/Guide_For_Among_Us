@@ -1,0 +1,319 @@
+<resources>
+    <string name="app_name">Wiki for Among Us</string>
+
+
+    <string name="jump">
+        Above is the general layout of The Skeld’s map.\n(Pinch with two fingers to zoom)\n\n
+        At the beginning of the game and after each discussion, players will start in the cafeteria.\n
+        From here they can branch out to any of the thirteen additional rooms to complete their tasks.\n
+        Every corridor features doorways that the imposters can lock, making it impossible for crewmate to pass through until an invisible timer expires.\n
+        One of the most important rooms on the map is the Admin room, as this contains a map players can interact with to see where everyone is.\n
+        This includes when imposters use vents to jump between locations, making it a handy sleuthing tool for the savvy player.\n
+
+        Additionally, there are fourteen vents that the imposters can use. All of the vents aren’t connected, so knowing where they go will be important if you want to escape suspicion after a clean kill.\n
+        Below is a map of The Skeld with the vent locations marked in red and which vents are connected in green.\n
+        I strongly recommend either memorizing or having this map present when you are playing. The last thing you want is to kill someone and pop out in a vent where people are! Always, always, always make sure no one is around you when exiting a vent.
+    </string>
+
+    <string name="dive">
+        Unlike The Skeld, MIRA HQ is a much smaller and more intimate map. This makes it the most difficult of the three Among Us maps to win as an imposter in a big group.\n\n
+        When the round starts, players will either spawn at the Launchpad or in the Cafeteria. \n
+        There are only a few hallways, meaning you won’t have as much space to run around as you normally would.\n
+        Additionally, the Communications room acts as MIRA HQ’s Admin room, allowing players to view a log that constantly updates with each players location.\n
+        While this might appear to be a downgrade of The Skeld’s admin room, it’s actually perfect for tracking an individual person you might be suspicious of.\n
+
+        As for vents, MIRA HQ is rather unique since the entire network is connected.\n
+        There are a total of eleven vents on this map and you can use them to reach anywhere on the map.\n
+        This makes it much easier to get away, just be careful as you can easily become spotted emerging from one of these holes.\n
+        Finally, the last big twist is the Decontamination hallway near the middle of the map. \n
+        Entering this will lock both doors for a brief period, trapping anyone inside until the doors open.\n
+        Use this to your advantage to split up teams or trap an unaware target!\n
+        You can see all the MIRA HQ vents below marked in red along with the routes they’re connected to in green.
+
+
+
+    </string>
+
+    <string name="grab">
+        The biggest of the three maps in Among Us, Polus allows players to explore both inside and outside an arctic base.\n\n
+        This means there’s a lot of ground to cover between rooms, which can be dangerous if you’re a crewmate trying to complete your tasks.\n
+        Polus features 15 rooms, not counting any of the decontamination chambers that are required to go through if you want to enter a structure.\n
+        Similar to MIRA HQ, these decontamination rooms will seal someone in for a few seconds, denying them access until the doors open.\n
+
+        Additionally, there are twelve vents (which are holes in the ground) on Polus. \n
+        These vents aren’t all interconnected, so you’ll need to plan carefully if you’re an imposter. \n
+        There are also no vent locations in both the bottom right and bottom left portions of the map. \n
+        You can see every vent on the map marked in red along with where they can spit you out in green.\n
+        I recommend keeping this map up if you’re new to ensure you don’t make a costly error.\n
+    </string>
+
+    <string name="soustitle">Wiki</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maps">Maps</string>
+    <string name="groups">Groups</string>
+    <string name="colors">Colors</string>
+    <string name="locations">Locations</string>
+    <string name="abilities">Abilities</string>
+    <string name="tasks">Tasks</string>
+    <string name="the_skeld">The Skeld</string>
+    <string name="mira_hq">MIRA HQ</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="polus">Polus</string>
+    <string name="crewmate">Crewmate</string>
+    <string name="crewmatedesc">
+        The Crewmate is one of two possible roles in the game Among Us.\n
+        The primary goal of the Crewmate is to complete all tasks while not being killed by the Impostor, with the secondary goal being Finding the Impostor, and kicking them off the ship.\n\n
+
+        The Crewmate can do a variety of tasks, ranging from fixing color-coded wiring, uploading data to the admin, fueling the ship engines, and memorizing pattern in order to start the space ship reactor.\n
+        There are many more tasks that are not listed. Tasks can be set by the game host to either Common, Long, or Short tasks.\n\n
+
+        The primary goal of the Crewmate is to complete all tasks while not being killed by the Impostor, with the secondary goal being finding the Impostor, and kicking them off the ship.\n
+        Crewmates who have been killed by an impostor become a ghost.\n
+        The Crewmate can do a variety of tasks, ranging from fixing color-coded wiring, uploading data to the admin, fueling the ship engines, and memorizing pattern in order to start the space ship reactor.\n
+        There are many more tasks that are not listed.\n Tasks can be set by the game host to either Common, Long, or Short tasks.\n
+
+    </string>
+
+    <string name="impostordesc">
+        The Impostor is one of two possible roles in the game Among Us.\n\n
+        The primary goal of the Impostor is to kill enough Crewmates to have an equal amount of impostor(s) and crewmates before all tasks are completed, and to have their true identity remain hidden.\n
+
+        The Impostor cannot complete any tasks, however, they are given a task list as general guidance on how to sustain the appearance of a Crewmate. \n
+        Impostors have the ability to Sabotage, which can create various temporary problems for Crewmates.\n
+
+        Depending on game settings, there can be up to 3 Impostors in a game.\n
+        The chance of a player being an Impostor is 100 divided by the number of players, for example: in a lobby of 2, each player has a 50% chance of being an Impostor, whereas on a lobby of 4, each player has a 25% chance, and in a lobby of 10, each player has a 10% chance, etc.\n
+        This chance does not change regardless of how many times you have (or haven\'t) been an Impostor. It is constant.
+    </string>
+
+    <string name="admin">
+        On Polus, it has no task to be made on the Admin Room.\n
+        When someone in the Admin Room (The Skeld, Mira HQ), clicking the button next to the map will show what room everyone is in, but without their colors.\n
+        The map doesn\'t show exact positions, and updates when someone changes rooms.
+    </string>
+    <string name="cafeteria">
+        The Skeld :\n\n
+        The Cafeteria, in The Skeld, is the main respawn of the players after the Discussion Time, and is a huge corridor with blue circular tables, and has three doors that connects for each place: left,which follows to the corridor near Medbay, right, which follows to the Weapons, and the bottom, which follows to the Storage and Admin (in right).
+        A vent is located near the right door, and the Emergency Button is located in the middle tabble of the corriidor.\n\n
+        Mira HQ :\n\n
+        In Mira HQ, the Cafeteria is located in the right corridor, and is little that its predecessor.\
+        It is also near the Storage and the Balcony, and the tables are cubic instead of circular and are light brown.\n
+        A vent is located near to the entering of it and the emergency button is located in the left table.
+
+    </string>
+    <string name="security">
+        Security is a ability in Among Us, which can be used by anyone to get information about other players.\n
+        This skill is used to view areas captured by security cameras, and is one of the main ways to catch an imposter by killing or entering the vent.\n\n
+        On The Skeld map, when this skill is used, you will see a TV divided into four screens:\n\n
+            \t-One between the cafeteria, the admin and the storage.\n
+            \t-One in the left corridor of the Cafeteria near the Medbay.\n
+            \t-One in the corridor near Navigation, 02, Weapons and Shields.\n
+            \t-One between the Security entrance and the Reactor.\n
+    </string>
+    <string name="exterior">
+        The exterior is the outer area of the planetary base, being located practically from the right exit of the office, with a lava pit, several pilasters of climatic modules, among other things.\n
+        Lava is the new way for the imposter to be kicked out of the place and thrown into the lava pit.
+    </string>
+    <string name="storage">
+        The Skeld :\n\n
+        On The Skeld map, Storage is a room full of boxes, with one floating due to gravity, and has a gas coffin to fill the ship\'s engines.\n It also has a lever and a door where the garbage is emptied. \n\n
+
+        Mira HQ :\n\n
+          At Mira HQ, Storage is located near the Cafeteria, where it is a place with a bookcase full of old things, including the watering can, which is used to water the plants.\n\n
+
+        Polus :\n\n
+        At Polus, Storage is a small, completely isolated room with just a gallon of gas and a few boxes, along with a hole, which is connected to the holes in the Office and the hole near Communications.
+
+    </string>
+    <string name="admina">
+    When in the Admin Room, clicking the button next to the map will show what room everyone is in, but without their colors.\n
+    The map doesn\'t show exact positions, and updates when someone changes rooms.
+    </string>
+    <string name="sabotagea">
+        An Impostor has the ability to Sabotage, which creates a temporary problem that Crewmates must either wait out, ignore, or fix.\n
+        The button will open up a map where different types of sabotage can be chosen.\n
+        Any type of sabotage will prevent the Emergency Button from being pressed.\n
+        Only one type of sabotage can be done at a time.
+    </string>
+
+
+    <string name="killa">
+        This ability is used only by impostors to kill any crew members who are alone with them.\n
+        The kill cooldown varies from 0 to 60 seconds and the kill distance can be short, medium or long, depending on the settings of a server. \n
+        However, when an impostor is in vent, or he is checking the cameras, sensors or the vitality machine, the kill stops recharging.
+    </string>
+
+    <string name="vent">
+      This ability lets the impostor hide from crewmates and move around the map without being seen.\n
+        When close enough to a vent, the Sabotage button will be replaced with the vent button. \n
+        If you click it, an animation shows you jumping into the vent, which everyone can see.\n
+        Arrows appear which let you move to connected vents.\n
+        Hiding in the vent stops your kill cooldown and sabotage cooldown until you exit the vent.
+    </string>
+    <string name="securo">
+        This skill is used to view areas captured by security cameras, and is one of the main ways to catch an imposter by killing or entering the vent.\n
+        When a camera is being used, a red light will blink on it.\n
+        During the Comms\' sabotage, the cameras end up being turned off, which makes the impostor take the opportunity to kill in any area that has a camera until the crewmates resolve the sabotage.\n
+        However, the sabotage of the lights does not affect the vision of the cameras, which can still normally see people\'s actions.
+    </string>
+    <string name="report">
+        The report button calls a meeting if a dead body is found.\n
+        This teleports every player into the main area of the map (like the Cafeteria) where nobody can move.\n
+        The meeting makes every player capable of talking in the chat and voting for an impostor.\n
+        If a crewmate or an imposter sees a dead body, they can report it.
+    </string>
+    <string name="types">
+        Oxygen:\n\n
+         This will cause all of the oxygen to be flushed from the ship, meaning the Impostor will win if the countdown reaches the end.\n
+         This requires pins to be entered on two different pads to be resolved.\n\n
+
+        Reactor Meltdown: \n\n
+        This will cause the engine reactor to melt, meaning the Impostor will win if the countdown reaches the end.\n
+        This requires two people to hold their hands on a scanner at the same time for it to be resolved.\n\n
+
+
+        Communications: \n\n
+         This will make it so the crewmates will not be able to see their task list or tasks on the map until the communications are restored.\n
+         It also disables the security cameras, vitals, admin map, and door log.\n
+         In MIRA HQ, two people at separate locations are required to restore the comms.\n\n
+
+        Lights:\n\n
+         This will turn down the range of the lights for the crewmates so it will be harder for them to see people around them. The Impostor is not affected.\n\n
+
+        Doors:\n\n
+         This will close the chosen door for 10 seconds, locking people into rooms.\n
+         Using doors will only set the cooldown on non-door sabotages, meaning all of the doors can be closed. Using a different type of sabotage will start the cooldown on all door sabotages.\n
+         In Polus, closed doors can be opened by turning off four switches, and doors can be closed during other sabotages (and vice versa).\n
+    </string>
+
+    <!--tasks-->
+    <string name="asteroids_gameplay">
+        This task, when opened, shows a green screen that shows several meteors flying, and has a crosshair that is moved by the mouse or dragging the screen, and when touching the meteors, they are destroyed, where 20 asteroids must be destroyed. \n
+        What proves that you were making the meteor is that missiles outside the ship will fire, being located in the Weapons. In Mira HQ, the task is not visible to other players, and is located on the Balcony, where there is a satellite with a green screen.\n
+        In Polus, the task is visible again, being located in the Weapons, where a cannon, when doing the task, will be shooting.\n
+        The task is on a computer with a green screen.
+    </string>
+
+    <string name="asteroids_maps">
+        The Skeld, Mira HQ, Polus
+    </string>
+
+    <string name="star_reactor_gameplay">
+        When the player opens the task, a screen with a keyboard will appear.\n
+        On the left screen, blue blocks will appear shining, and the player must memorize the correct sequence and then select the buttons that make up the sequence, but if he misses, the player must start all over again.\n
+        However, when an emergency meeting is called or a body is reported, the player\'s progress is saved.
+    </string>
+
+    <string name="star_reactor_maps">
+        The Skeld, Mira HQ, Polus
+    </string>
+
+    <string name="swipe_card_gameplay">
+        The player must swipe the card inside the wallet on the draw frame.\n
+        The card needs to be timed correctly.\n
+        Swiping too slow or too fast will fail to complete the task and consequently, the player must try again.\n
+    </string>
+
+    <string name="swipe_card_maps">
+        The Skeld, Polus
+    </string>
+
+    <string name="submit_scan_gameplay">
+        This task consists of the player standing on top of a capsule that starts to scan him, while his information is shown, all in about 10 seconds.\n
+        While doing the task, a hologram that scans the player is shown both to him and to other players, making it a task that proves innocence and thus, it becomes easier to discover the imposter.
+    </string>
+
+    <string name="submit_scan_maps">
+        The Skeld, Mira HQ, Polus
+    </string>
+
+    <string name="empty_garbage_gameplay">
+        In The Skeld, the task consists of 2 phases, the first phase is located in the Cafeteria, where you must go on the lever and then, open a trash can filled with a lever, where you must pull it and hold it until the garbage has been emptied completely, the second phase is located in the storage, and is located on a lever near a door outside the ship, where you must pull the lever and hold it until the trash is empty, and the door outside the ship will open, throwing all the trash out. \n
+        At Mira HQ, it consists of just 1 stage, and is located in the cafeteria.\n
+        At Polus, it is located at O2, and also consists of 1 phase.
+    </string>
+
+    <string name="empty_garbage_maps">
+        The Skeld, Mira HQ, Polus
+    </string>
+
+    <string name="fixwiring_gameplay">
+        This task has 3 parts, and all you are needed to do is connect the similarly coloured wire ends.\n
+        When all four have been (correctly) placed, that panel is done.
+    </string>
+
+    <string name="fixwiring_maps">
+        The Skeld, Mira HQ, Polus
+    </string>
+    <string name="empty_chute_gameplay">
+        In The Skeld, the task consists of 2 phases, the first phase is located in the Cafeteria, where you must go on the lever and then, open a trash can filled with a lever, where you must pull it and hold it until the garbage has been emptied completely, the second phase is located in the storage, and is located on a lever near a door outside the ship, where you must pull the lever and hold it until the trash is empty, and the door outside the ship will open, throwing all the trash out.\n
+        At Mira HQ, it consists of just 1 stage, and is located in the cafeteria.\n
+        At Polus, it is located at O2, and also consists of 1 phase.
+    </string>
+    <string name="empty_chute_maps">
+        The Skeld, Mira HQ, Polus
+    </string>
+
+    <string name="fragstratimpo">
+
+        Sabotage the reactor and then pretend to fix it.\n
+        That way, you can avoid suspicion while Crewmates let you fix the reactor until time runs out and everybody dies.\n\n
+
+        Go in the vents and move around.\n Try not to be spotted by Crewmates or you\'ll most likely get ejected.\n Try not to eject in the dark either.\n The Impostor kill cooldown is frozen while in a vent, preventing the Impostor from remaining in a vent indefinitely.\n However, if your cooldown has already been charged, you can easily pop out of a vent and snag a quick kill.\n\n
+
+        Only kill when there are no witnesses.\n You always want the upper hand.\n\n
+
+        Report bodies when people are nearby.\n It will be even better if you are entering a room that has a dead body along with a crewmate.\n\n Then, during the debate, you can say that the crewmate you saw was in the room.\n\n
+
+        Sabotage as much as possible, and eliminate AFK players.\n The best sabotageable systems in the game are the Reactor and O2 (these are the only ones that can make the Crewmates lose if they waste too much time trying to fix them).\n\n
+
+        Team up with the other Impostors (if there are any).\n This allows you to vouch for each others\'s innocence.\n\n
+
+        DO NOT rat out your fellow impostors.\n This is for obvious reasons.\n However, do not jump to defend an obvious Impostor either, as this can ruin your reputation with the crew.\n\n
+
+        Electrical on The Skeld is a good place to kill, due to the blockage and the nearby vent in there where you can vent in 2 safe places and back to the origin place. Make sure to keep that door locked though.\n\n
+
+        If you attempt to follow and kill a single Crewmate, finish them quickly. You\'ll start losing trust from the Crewmate you\'re following and they will most likely flee to a room with other people.\n In the worst-case scenario, they will proceed to call an Emergency Meeting.\n\n
+
+        Do not kill in view of Security Cameras on The Skeld.\n The places where kills can be recorded are the hallway between Upper Engine and the Cafeteria, the vertical hallway from Upper Engine to Lower Engine that connects to Reactor and to Security, the hallway between Weapons and a vent located near Navigation and O2, and the hallway between Cafeteria and Storage (where Admin is connected too).\n\n
+
+        Do not stand or dance on any body you find or kill (same goes to Crewmates).\n You will very, very likely be ejected.\n\n
+
+        Try killing in the dark (during the Fix Wiring sabotage) when no one\'s nearby, then try to reach Electrical as fast as possible instead of hiding so you don\'t become a suspect.\n Also, try killing in very closely spaced crowds, and try not to run away or even move while this happens (even if you really badly want to), because you\'ll most likely be seen running away.\n\n
+
+        If you\'re going to kill in a place where quite a fair amount of Crewmates have passed by, do it carefully. \nTry not to get seen going to said place so you aren\'t a suspect if a body is found there.\n\n
+
+        Whatever you do, don\'t ever fake a visual task.\n The reasons for this are downright obvious.\n Visual tasks include Clearing Meteorites, Empty Garbage, Prime Shields, and Submit Scan.\n\n
+
+        Move after the task bar goes up if you\'re faking a single-part task (recommended that i\'ts done during the time period it takes for it to get done by coincidence).\n Pretend you\'re doing tasks as realistically as possible.\n Also, try not to fake Empty Garbage, and even though this is a multiple-part task, it has a visual part.\n\n
+
+        If you have, for whatever reason, decided to fake a visual task, try not to get seen. Sabotaging the door connecting to the place the task is in is a good way to keep Crewmates from seeing you.\n\n
+
+        Fake trying to exit a room if you lock yourself in either on purpose or by accident if you have been seen by anyone out of the closed area.\n Also, do not try to kill in Storage if the doors are locked in, since this place doesn\'t have any vents. Once you do this and there are people in the outer area there is no escape.\n\n
+
+         If the Crewmates have all decided to stay together, your only chance is to kill when they\'re close enough so you don\'t get found out easily.\n Also, try sabotaging Electricity and O2 because of stealth in the former and the fact that some might split in the latter.\n\n
+
+         Force Crewmates to separate by sabotaging the Gravitational Stabilizers on Polus or Communications on Mira HQ.\n
+    </string>
+
+    <string name="fragstratcrew">
+
+        Try to deduce who is/are the Impostor(s).\n
+        Eject people with evidence. If you randomly point fingers, then you\'re just making it worse and you\'ll probably lose trust.\n\n
+
+        Use the security cameras. You can see who\'s doing what, and who\'s following who.\n\n
+
+        Always keep an eye out for people going inside vents.\n\n
+
+        Try to finish all of your tasks before it\'s too late.\n\n
+
+        If you have tasks such as Clear Asteroids (Weapons), Submit Scan (Medbay), Prime Shields (Medbay)-(only-use ever since a discussion or the intro is over), or Empty Garbage (O2 and Cafeteria to Storage), you should make it whenever someone is near, so you can prove your innocence because these are the only tasks that are animated.\n\n
+
+        If you\'re in a room, very high chances of survival are if you are with the amount of Impostors plus one.\n While it may be rare to encounter yourself with more than one Impostor while you\'re the only Crewmate in the room, having a buddy or more of them will certainly help you out if you happen to get killed, and you can use that as evidence if you get thrown under the bus.\n\n
+
+        If you have done a visual task and someone who also has a visual task has seen it, follow them so they proceed to do their task.\n Both will likely trust each other and follow themselves at most part of the game. If this is not the case, try not to follow any other player who hasn\'t been confirmed, as you\'ll most likely get ejected for being suspicious due to this following behavior, or you could also get murdered in the way.\n
+    </string>
+
+
+</resources>

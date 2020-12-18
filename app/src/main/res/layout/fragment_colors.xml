@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elements.Colors"
+    android:fillViewport="true">
+
+    <ListView
+        android:background="#4A343D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heavyview"
+        android:dividerHeight="5.0sp"
+        android:nestedScrollingEnabled="true"
+        />
+
+</androidx.core.widget.NestedScrollView>

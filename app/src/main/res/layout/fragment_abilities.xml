@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Elements.Abilities"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:layout_weight="1"
+                android:background="@drawable/selected"
+                android:id="@+id/all"
+                android:layout_margin="3dp"
+                android:fontFamily="@font/lemon"
+                android:textColor="#FFF"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impostor"
+                android:layout_weight="1"
+                android:background="@drawable/unselected"
+                android:id="@+id/impo"
+                android:layout_margin="3dp"
+                android:fontFamily="@font/lemon"
+                android:textColor="#FFF"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crewmates"
+                android:layout_weight="1"
+                android:background="@drawable/unselected"
+                android:id="@+id/crew"
+                android:layout_margin="3dp"
+                android:fontFamily="@font/lemon"
+                android:textColor="#FFF"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/sabotage"
+        android:background="@drawable/buttonstyle"
+        android:layout_margin="4dp"
+        >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sabotage"
+        android:paddingLeft="30dp"
+        android:textColor="#fff"
+        android:fontFamily="@font/title"
+        android:textSize="55sp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sabotagea"
+        android:layout_marginRight="30dp"
+        android:adjustViewBounds="true"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_margin="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saboa"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/sabotagea"
+            android:textColor="#000"
+            android:background="@drawable/textstyle"
+            android:textSize="17sp"
+            android:padding="6dp"
+            android:fontFamily="@font/details"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to read more about types of sabotage"
+            android:background="@color/trans"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_gravity="right"
+            android:id="@+id/readmore"
+            android:visibility="gone"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/admina"
+        android:background="@drawable/abilitiestyle"
+        android:layout_margin="4dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/admina"
+            android:layout_marginLeft="30dp"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Admin"
+            android:layout_marginRight="30dp"
+            android:textColor="#fff"
+            android:fontFamily="@font/title"
+            android:textSize="55sp"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/admia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/admina"
+            android:textColor="#000"
+            android:background="@drawable/textstyle"
+            android:textSize="17sp"
+            android:padding="6dp"
+            android:fontFamily="@font/details"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/kill"
+        android:background="@drawable/buttonstyle"
+        android:layout_margin="4dp"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kill"
+            android:paddingLeft="30dp"
+            android:textColor="#fff"
+            android:fontFamily="@font/title"
+            android:textSize="55sp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/kill"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/killa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/killa"
+            android:textColor="#000"
+            android:background="@drawable/textstyle"
+            android:textSize="17sp"
+            android:padding="6dp"
+            android:fontFamily="@font/details"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/venta"
+        android:background="@drawable/abilitiestyle"
+        android:layout_margin="4dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/venta"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Vent"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:fontFamily="@font/title"
+            android:layout_marginRight="30dp"
+            android:textSize="55sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/vent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/vent"
+            android:textColor="#000"
+            android:background="@drawable/textstyle"
+            android:textSize="17sp"
+            android:padding="6dp"
+            android:fontFamily="@font/details"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/security"
+        android:background="@drawable/buttonstyle"
+        android:layout_margin="4dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Security"
+            android:paddingLeft="30dp"
+            android:textColor="#fff"
+            android:fontFamily="@font/title"
+            android:textSize="55sp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/securitya"
+            android:layout_marginRight="30dp"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/securitya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/securo"
+            android:textColor="#000"
+            android:background="@drawable/textstyle"
+            android:textSize="17sp"
+            android:padding="6dp"
+            android:fontFamily="@font/details"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/report"
+        android:background="@drawable/abilitiestyle"
+        android:layout_margin="4dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/reporta"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Report"
+            android:textColor="#fff"
+            android:fontFamily="@font/title"
+            android:textSize="55sp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/repora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/report"
+            android:textColor="#000"
+            android:background="@drawable/textstyle"
+            android:textSize="17sp"
+            android:padding="6dp"
+            android:fontFamily="@font/details"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

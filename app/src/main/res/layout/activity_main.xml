@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpaper"
+
+ >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/carn"
+            android:gravity="center"
+            android:text="Among Us"
+            android:textColor="#F60428"
+            android:textSize="80sp"
+
+            />
+
+        <TextView
+            android:id="@+id/soustitre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/emixvade"
+            android:gravity="center"
+            android:text="@string/soustitle"
+            android:textColor="#F43636"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            >
+            <RelativeLayout
+                android:id="@+id/goguide"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/homestyle"
+                android:layout_margin="10dp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/oaklash"
+                    android:padding="18dp"
+                    android:text="Elements"
+                    android:textColor="#F4F3F4"
+                    android:textSize="45sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="6dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            >
+            <RelativeLayout
+                android:id="@+id/strat"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/homestyle"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/oaklash"
+                    android:padding="18dp"
+                    android:text="Strategies"
+                    android:textColor="#F8F5F7"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="-12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/news"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/homestyle"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/oaklash"
+                    android:padding="18dp"
+                    android:text="Latest News"
+                    android:textColor="#F8F0F5"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-1dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/features"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/homestyle"
+                android:layout_margin="10dp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/oaklash"
+                    android:padding="18dp"
+                    android:text="Features"
+                    android:textColor="#F6F1F5"
+                    android:textSize="40sp"
+                    android:id="@+id/feat"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

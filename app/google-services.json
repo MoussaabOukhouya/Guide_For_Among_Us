@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015577324967",
+    "firebase_url": "https://among-us-26283.firebaseio.com",
+    "project_id": "among-us-26283",
+    "storage_bucket": "among-us-26283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015577324967:android:65d4d5c0b5b789fcd41a82",
+        "android_client_info": {
+          "package_name": "pro.guides.AmongUs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015577324967-636p5dt7v91ufsp6d924bcduamhokcag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVPb4flgXvBIu9NAXb9_aSFo8Ab4KWAeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015577324967-636p5dt7v91ufsp6d924bcduamhokcag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myyyview"
+
+        >
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="5dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/card3"
+            >
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_width="175dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sabb"
+            android:id="@+id/img"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:fontFamily="@font/title"
+            android:textSize="35sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/weapname"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color"
+            android:textColor="#FFF"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/map"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

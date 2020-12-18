@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Elements.Abilities"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fillViewport="true"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="#4A343D"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:layout_weight="1"
+            android:background="@drawable/selected"
+            android:id="@+id/all"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/lemon"
+            android:textColor="#FFF"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short"
+            android:layout_weight="1"
+            android:background="@drawable/unselected"
+            android:id="@+id/shor"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/lemon"
+            android:textColor="#FFF"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Common"
+            android:layout_weight="1"
+            android:background="@drawable/unselected"
+            android:id="@+id/commo"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/lemon"
+            android:textColor="#FFF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long"
+            android:layout_weight="1"
+            android:background="@drawable/unselected"
+            android:id="@+id/lon"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/lemon"
+            android:textColor="#FFF"/>
+
+    </LinearLayout>
+
+        <ListView
+            android:background="#4A343D"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/heavyview"
+            android:dividerHeight="5.0sp"
+            android:nestedScrollingEnabled="true"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
