@@ -8,6 +8,6 @@
   https://play.google.com/store/apps/details?id=pro.guides.AmongUs&hl=en_US&gl=US
   
 <h3>For more informations:</h3>
-    <b>Mail</b>: <a href="mailto:OukhouyaMoussaab@gmail.com">Send email</a>
+    <b>Mail</b>: <a href="mailto:OukhouyaMoussaab@gmail.com">Send email</a> <br>
     <b>Linkedin</b>: <a href="https://www.linkedin.com/in/oukhouyamoussaab/">Go to my Linkedin</a>
 
